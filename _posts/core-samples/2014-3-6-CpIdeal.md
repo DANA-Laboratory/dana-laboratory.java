@@ -6,7 +6,7 @@ tags : [intro, beginner, jekyll, tutorial]
 filename: CpIdeal.jl
 ---
 {% include JB/setup %}
-
+{% highlight julia %}
 module CpIdeal
   export C0Poly,C0Hyper
   cp_polynomial=open("./share/julia/site/v0.2/CpIdeal.jl/src/Tables/perryHeatCapIdealGas(Table2-155).table");
@@ -36,3 +36,4 @@ module CpIdeal
     end
   end
 end
+{% endhighlight %}
